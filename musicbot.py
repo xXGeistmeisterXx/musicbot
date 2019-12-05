@@ -1,4 +1,4 @@
-# musicbot.py v1.03
+# musicbot.py v1.04
 # by me (Tyler Geist)
 # 12/4/19
 import lyricsgenius as genius
