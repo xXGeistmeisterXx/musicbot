@@ -150,7 +150,7 @@ while(True):
             print("Total bad words: " + str(song["btotal"]) + " (" + str(song["bcount"][1]) + " mild (" + str(round(song["bcount"][1]/song["btotal"] * 100, 2)) + "%), " + str(song["bcount"][2]) + " bad (" + str(round(song["bcount"][2]/song["btotal"] * 100, 2)) + "%), " + str(song["bcount"][3]) + " sexual (" + str(round(song["bcount"][3]/song["btotal"] * 100, 2)) + "%), " + str(song["bcount"][4]) + " racial (" +  str(round(song["bcount"][4]/song["btotal"] * 100, 2)) + "%))")
             print("Bad words in song: (" + song["words"] + ")")
         else:
-            print("CLEAN")
+            print("SQUEAKY CLEAN")
             
         print("")
         
