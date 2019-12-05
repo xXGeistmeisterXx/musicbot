@@ -1,4 +1,4 @@
-# musicbot.py v1.02
+# musicbot.py v1.03
 # by me (Tyler Geist)
 # 12/4/19
 import lyricsgenius as genius
@@ -139,7 +139,10 @@ while(True):
         print("")
         print("Title: " + song["title"])
         print("Artist: " + song["artist"])
-        print("Album: " + song["album"])
+        if(song["album"] != None):
+            print("Album: " + song["album"])
+        else:
+            print("No album found")
         if(song["btotal"] > 0):
             print("Explicit index: " + str(song["bindex"]))
             print("Average bad word score: " + str(song["bindexa"]))
